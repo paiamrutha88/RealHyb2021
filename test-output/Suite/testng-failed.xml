@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.test.hybrid.suiteA.LoginTest">
+        <methods>
+          <include name="quit"/>
+          <include name="init"/>
+          <include name="login" invocation-numbers="0 1 2 3"/>
+        </methods>
+      </class> <!-- com.test.hybrid.suiteA.LoginTest -->
+      <class name="com.test.hybrid.suiteA.TestB">
+        <methods>
+          <include name="quit"/>
+          <include name="init"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- com.test.hybrid.suiteA.TestB -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

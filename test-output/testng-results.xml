@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="0" ignored="0" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="141052" started-at="2021-02-18T06:30:21Z" finished-at="2021-02-18T06:32:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="141052" started-at="2021-02-18T06:30:21Z" finished-at="2021-02-18T06:32:42Z">
+      <class name="com.test.hybrid.suiteA.LoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:com.test.hybrid.suiteA.LoginTest@4667ae56]" name="init" is-config="true" duration-ms="783" started-at="2021-02-18T06:30:21Z" finished-at="2021-02-18T06:30:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.test.hybrid.suiteA.LoginTest@4667ae56]" name="initTest" is-config="true" duration-ms="190" started-at="2021-02-18T06:30:22Z" finished-at="2021-02-18T06:30:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="login(java.util.Hashtable)[pri:0, instance:com.test.hybrid.suiteA.LoginTest@4667ae56]" name="login" duration-ms="137961" started-at="2021-02-18T06:30:22Z" data-provider="getData" finished-at="2021-02-18T06:32:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=paiamrutha88@gmail.com, Password=caps9876, Runmode=Y, Result=Pass, Browser=Chrome}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.test.hybrid.suiteA.LoginTest@4667ae56]" name="quit" is-config="true" duration-ms="1825" started-at="2021-02-18T06:32:40Z" finished-at="2021-02-18T06:32:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="SKIP" signature="login(java.util.Hashtable)[pri:0, instance:com.test.hybrid.suiteA.LoginTest@4667ae56]" name="login" duration-ms="3" started-at="2021-02-18T06:32:42Z" data-provider="getData" finished-at="2021-02-18T06:32:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=U2, Password=P2, Runmode=N, Result=Pass, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode set to No for the data set or test case]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode set to No for the data set or test case
+at com.test.hybrid.suiteA.LoginTest.login(LoginTest.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.test.hybrid.suiteA.LoginTest@4667ae56]" name="initTest" is-config="true" duration-ms="0" started-at="2021-02-18T06:32:42Z" finished-at="2021-02-18T06:32:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.test.hybrid.suiteA.LoginTest@4667ae56]" name="quit" is-config="true" duration-ms="90" started-at="2021-02-18T06:32:42Z" finished-at="2021-02-18T06:32:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="SKIP" signature="login(java.util.Hashtable)[pri:0, instance:com.test.hybrid.suiteA.LoginTest@4667ae56]" name="login" duration-ms="2" started-at="2021-02-18T06:32:42Z" data-provider="getData" finished-at="2021-02-18T06:32:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=U3, Password=P3, Runmode=N, Result=Fail, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode set to No for the data set or test case]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode set to No for the data set or test case
+at com.test.hybrid.suiteA.LoginTest.login(LoginTest.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.test.hybrid.suiteA.LoginTest@4667ae56]" name="initTest" is-config="true" duration-ms="0" started-at="2021-02-18T06:32:42Z" finished-at="2021-02-18T06:32:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.test.hybrid.suiteA.LoginTest@4667ae56]" name="quit" is-config="true" duration-ms="76" started-at="2021-02-18T06:32:42Z" finished-at="2021-02-18T06:32:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="SKIP" signature="login(java.util.Hashtable)[pri:0, instance:com.test.hybrid.suiteA.LoginTest@4667ae56]" name="login" duration-ms="2" started-at="2021-02-18T06:32:42Z" data-provider="getData" finished-at="2021-02-18T06:32:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Username=U4, Password=P4, Runmode=N, Result=Fail, Browser=Mozilla}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode set to No for the data set or test case]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode set to No for the data set or test case
+at com.test.hybrid.suiteA.LoginTest.login(LoginTest.java:30)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="initTest()[pri:0, instance:com.test.hybrid.suiteA.LoginTest@4667ae56]" name="initTest" is-config="true" duration-ms="0" started-at="2021-02-18T06:32:42Z" finished-at="2021-02-18T06:32:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.test.hybrid.suiteA.LoginTest@4667ae56]" name="quit" is-config="true" duration-ms="69" started-at="2021-02-18T06:32:42Z" finished-at="2021-02-18T06:32:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.test.hybrid.suiteA.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
